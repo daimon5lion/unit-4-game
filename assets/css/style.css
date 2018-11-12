@@ -1,0 +1,20 @@
+#cr1,
+#cr2,
+#cr3,
+#cr4 {
+  border: 5px solid rgb(70, 7, 99);
+  border-radius: 2rem;
+  margin-bottom: 10px;
+}
+
+#targetnumber {
+  font-family: fantasy;
+  color: rgb(49, 16, 16);
+  font-size: 40px;
+}
+
+#score {
+  font-family: fantasy;
+  color: rgb(49, 16, 16);
+  font-size: 30px;
+}
