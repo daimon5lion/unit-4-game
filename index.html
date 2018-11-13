@@ -12,6 +12,7 @@
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Spicy+Rice|Anton"
       rel="stylesheet"
@@ -19,7 +20,7 @@
     <title>Crystal Collector</title>
   </head>
 
-  <body style="background-image: url(assets/images/confectionary.png)">
+  <body style="background-image: url(assets/images/bg.png)"> 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -64,15 +65,15 @@
 
       <div class="row">
         <div class="col-md-3" style="background-color:rgb(78, 113, 158); border: 5px solid rgb(70, 7, 99);border-radius: 2rem;">
-          <p>You will be given a random number at the start of the game. <br><br>
-          There are four crystals below. By clikcing on a crystal you will add a specific amount of points to your total score. <br><br>
+          <p>You will be given a random number in yellow box at the start of the game. <br><br>
+          There are four crystals on right. By clikcing on a crystal you will add a specific amount of points to your total score. <br><br>
         You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>
       The value of each crystal is hidden from you until you click on it. <br><br>Each time when the game starts, the game will change the values of each crystal.
     </p>
         </div>
         <div class="col-md-6">
            <div class="row">
-                <div class="col-md-4" style="margin-left:60px;">
+                <div class="col-md-4" style="margin-left:70px;">
                     <img id="cr1" src="assets/images/crystal1.png" />
                 </div>
                 <div class="col-md-4">
@@ -80,7 +81,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4" style="margin-left:60px;">
+                <div class="col-md-4" style="margin-left:70px;">
                     <img id="cr3" src="assets/images/crystal3.png" />
                 </div>
                 <div class="col-md-4">
@@ -91,7 +92,7 @@
         </div>
         <div class="col-md-3">
           <div class="row" style="background-color:rgb(217, 236, 42); border: 3px solid rgb(70, 7, 99);border-radius: 5px; height: 100px;text-align: center; line-height: 80px;">
-            <p id="targetnumber">56</p>
+            <p id="targetnumber"></p>
           </div>
           <div class="row" >
             <div class="col-md-7">
