@@ -12,7 +12,7 @@ $(document).ready(function() {
   var c4Numbers = Math.floor(Math.random() * 12 + 1);
 
   function win() {
-    alert("Congrats! You won!");
+    alert("Congratulations! You won!");
     wins++;
     $("#win").text(wins);
     reset();
